@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>Hidromel Bardo</title>
     <link rel="stylesheet" type="text/css" media="screen" href="style/style.css">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
@@ -17,9 +17,15 @@
         <img id="head-logo" src="images/head-logo.jpg">
 
         <div id="navbar">
-                <a class="menu-button" href="#obardo">O Bardo</a>
-                <a class="menu-button" href="#sobrenos">Sobre Nós</a>
-                <a class="menu-button" href="#contato">Contato</a>
+            <div id="navbar-left">
+                <a href="#obardo">O Bardo</a>
+                <a href="#sobrenos">Sobre Nós</a>
+            </div>
+
+            <div id="navbar-right">
+                <a href="#contato">Contato</a>
+                <a href="https://www.facebook.com/hidromelbardo/ " target="_blank" class="fa fa-facebook"></a>
+            </div>
         </div>
 
         <div id="content-holder">
@@ -27,20 +33,21 @@
         <div id="obardo" class="content">
             <h1>O Bardo</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ornare at elit eget tempor. Pellentesque at risus ac erat maximus euismod quis non nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eget urna eget lacus efficitur fermentum. Aliquam vestibulum sagittis eros pulvinar tristique. Duis sit amet dignissim felis. Quisque fringilla, metus ac cursus ultrices, augue metus consectetur ligula, ac lacinia ante libero vitae ante. Morbi augue ante, mattis vel lectus a, fringilla mattis sapien. Suspendisse at leo nec neque commodo malesuada non non diam. Cras et rhoncus leo, sit amet tincidunt enim. Integer rutrum erat ante, eget pharetra libero pretium eget.
+                Cuidadosamente preparado utilizando mel de produtoresselecionados, o Bardo é oresultado de anos de estudoe aprimoramento.
             </p>
-            <div id="demo" class="carousel slide" data-ride="carousel">
+            <p>
+                Produzimos de forma 100%artesanal e seguimos asmais tradicionais receitasnórdicas para trazer atévocê a mais típica bebidaconsumida pelos povosdo norte europeu!
+            </p>
+            <div id="bardo-imgs" class="carousel slide" data-ride="carousel">
 
-                <!-- Indicators -->
                 <ul class="carousel-indicators">
-                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                    <li data-target="#demo" data-slide-to="1"></li>
-                    <li data-target="#demo" data-slide-to="2"></li>
-                    <li data-target="#demo" data-slide-to="3"></li>
-                    <li data-target="#demo" data-slide-to="4"></li>
+                    <li data-target="#bardo-imgs" data-slide-to="0" class="active"></li>
+                    <li data-target="#bardo-imgs" data-slide-to="1"></li>
+                    <li data-target="#bardo-imgs" data-slide-to="2"></li>
+                    <li data-target="#bardo-imgs" data-slide-to="3"></li>
+                    <li data-target="#bardo-imgs" data-slide-to="4"></li>
                 </ul>
                 
-                <!-- The slideshow -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                     <img src="images/bardo1.png" alt="Taças de Bardo">
@@ -60,31 +67,62 @@
                 </div>
                 
                 <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <a class="carousel-control-prev" href="#bardo-imgs" data-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </a>
-                <a class="carousel-control-next" href="#demo" data-slide="next">
+                <a class="carousel-control-next" href="#bardo-imgs" data-slide="next">
                     <span class="carousel-control-next-icon"></span>
                 </a>
                 
             </div>
         </div>
 
+        <hr>
+
         <div id="sobrenos" class="content">
-                <h1>Sobre nós</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ornare at elit eget tempor. Pellentesque at risus ac erat maximus euismod quis non nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eget urna eget lacus efficitur fermentum. Aliquam vestibulum sagittis eros pulvinar tristique. Duis sit amet dignissim felis. Quisque fringilla, metus ac cursus ultrices, augue metus consectetur ligula, ac lacinia ante libero vitae ante. Morbi augue ante, mattis vel lectus a, fringilla mattis sapien. Suspendisse at leo nec neque commodo malesuada non non diam. Cras et rhoncus leo, sit amet tincidunt enim. Integer rutrum erat ante, eget pharetra libero pretium eget.
-                </p>
-                <p>
-                    Fusce lacinia, dolor vitae posuere pellentesque, elit nulla euismod velit, in gravida augue ex at lacus. Curabitur gravida euismod tellus, in mollis elit sollicitudin in. Vivamus placerat nisi ligula, in semper augue fringilla vitae. Sed elementum commodo risus. Quisque a nisi quam. Mauris varius tincidunt urna non lobortis. Phasellus consectetur sagittis rhoncus. Sed interdum, diam vitae pharetra imperdiet, orci nisl tristique enim, vitae volutpat tortor justo vel dui. Aenean eu purus est. Sed at nulla egestas, faucibus urna vel, blandit est. Donec semper vel mauris eget auctor.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ornare at elit eget tempor. Pellentesque at risus ac erat maximus euismod quis non nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eget urna eget lacus efficitur fermentum. Aliquam vestibulum sagittis eros pulvinar tristique. Duis sit amet dignissim felis. Quisque fringilla, metus ac cursus ultrices, augue metus consectetur ligula, ac lacinia ante libero vitae ante. Morbi augue ante, mattis vel lectus a, fringilla mattis sapien. Suspendisse at leo nec neque commodo malesuada non non diam. Cras et rhoncus leo, sit amet tincidunt enim. Integer rutrum erat ante, eget pharetra libero pretium eget.
-                </p>
-                <p>
-                    Fusce lacinia, dolor vitae posuere pellentesque, elit nulla euismod velit, in gravida augue ex at lacus. Curabitur gravida euismod tellus, in mollis elit sollicitudin in. Vivamus placerat nisi ligula, in semper augue fringilla vitae. Sed elementum commodo risus. Quisque a nisi quam. Mauris varius tincidunt urna non lobortis. Phasellus consectetur sagittis rhoncus. Sed interdum, diam vitae pharetra imperdiet, orci nisl tristique enim, vitae volutpat tortor justo vel dui. Aenean eu purus est. Sed at nulla egestas, faucibus urna vel, blandit est. Donec semper vel mauris eget auctor.
-                </p>
+            <h1>Sobre nós</h1>
+            <div id="team-members">
+                <div class="team-card">
+                    <img src="images/bardo-logo.jpg">
+                    <h2>Marcos A. Fernandes</h2>
+                    <p>Formado em Administração pela UEL (Universidade Estadual de Londrina) e em Desenvolvimento de Games pela Microcamp. Heathen, estuda a produção de hidromel há muitos anos, sempre em busca de aperfeiçoar a receita.</p>
+                </div>
+                <div class="team-card">
+                    <img src="images/bardo-logo.jpg">
+                    <h2>Guilherme S. Peruso</h2>
+                    <p>Formado em Economia pela UEL (Universidade Estadual de Londrina).</p>
+                </div>
             </div>
+        </div>
+
+        <hr>
+
+        <div id="contato" class="content">
+            <h1>Contato</h1>
+
+            <form id="form-contato" action="mailto:contato@hidromelbardo.com" method="post" enctype="text/plain">
+            <div>
+               <span>
+                <p>Nome:</p>
+                <input class="form-input1" type="text" name="name">
+               </span> 
+               <span>
+                <p>E-mail:</p>
+                <input class="form-input1" type="email" name="mail">
+                </span>
+                <div>
+                    <p>Mensagem:</p>
+                    <textarea class="form-input2" rows="4" cols="50" name="comment"></textarea>
+                </div>
+                <div>
+                    <input class="form-button" type="submit" value="Enviar">
+                    <input class="form-button" type="reset" value="Apagar">
+                </div>                          
+              
+            </div>
+            </form>
+
+        </div>
 
         </div>
     </div>
