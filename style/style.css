@@ -149,9 +149,11 @@ p{
     display: block;
 }
 
-form span {
+.form-field {
     margin: 30px 0;
     display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 form p {
@@ -165,8 +167,8 @@ form p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
     color: white;
-    margin: 20px 20px 0 0;
-    transition: 0.7;
+    margin: 20px;
+    transition: 0.7s;
     opacity: 0.6;
 }
 
@@ -174,4 +176,20 @@ form p {
     opacity: 1;
     box-shadow: 0 0 2px rgb(153, 152, 152);
     cursor: pointer;
+} 
+
+form input, textarea {
+    border:none;
+    box-shadow: 0 0 8px rgb(170, 170, 170);
+}
+
+form input:hover, textarea:hover {
+    border:none;
+    box-shadow: 0 0 12px rgb(170, 170, 170);
+}
+
+#errorMsg {
+    height: 18px;
+    color: red;
+    font-weight: bold;
 }
