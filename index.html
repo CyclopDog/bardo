@@ -24,7 +24,6 @@
 
             <div id="navbar-right">
                 <a href="#contato">Contato</a>
-                <a href="https://www.facebook.com/hidromelbardo/ " target="_blank" class="fa fa-facebook"></a>
             </div>
         </div>
 
@@ -97,43 +96,33 @@
 
         <hr>
 
-        <div id="contato" class="content">
-            <h1>Contato</h1>
+        <h1>Contato</h1>
 
-            <form name="contatoform" id="form-contato" action="mailto:contato@hidromelbardo.com" onsubmit="return validateForm()" method="post" enctype="text/plain">
+        <div id="contato" class="content">            
+
             <div>
-               <span class="form-field">
-                <p>Nome:</p>
-                <input id="nameField" class="form-input1" type="text" name="name">
-               </span> 
-               <span class="form-field">
-                <p>E-mail:</p>
-                <input class="form-input1" type="email" name="mail">
-                </span>
-                <div class="form-field">
-                    <p>Mensagem:</p>
-                    <textarea class="form-input2" rows="4" cols="50" name="comment"></textarea>
-                </div>
+                <p>Envie um email para</p>               
+                
+                <input type="text" value="contato@hidromelbardo.com" id="mailCopy">                
+                <button onclick="copyEmail()">Copiar texto</button>
 
-                <div class="form-field"><p id="errorMsg"></p></div>
-
-                <div class="form-field">
-                    <input class="form-button" type="submit" value="Enviar">
-                    <input id="reset-button" class="form-button" type="reset" value="Apagar">
-                </div>              
             </div>
-            </form>
 
+            <div class="vl"></div>
+
+            <div>
+                <p>Mande-nos uma mensagem no facebook: </p>
+                
+                <a href="https://www.facebook.com/hidromelbardo/ " target="_blank" class="fa fa-facebook"></a>
+            </div>
+            
         </div>
 
         </div>
     </div>
-    
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Topo</button>
 </body>
 
 <script src="script/script.js"></script>
-<<<<<<< HEAD
-</html> 
-=======
 </html>
->>>>>>> 65d9ceb032f04b0c89ed28d3b3415f6eff11a34a
